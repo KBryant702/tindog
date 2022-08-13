@@ -25,12 +25,19 @@ p {
 .feature-title {
   font-size: 1.5rem;
 }
+
 /* Containers */
 .container-fluid {
   padding: 7% 15%;
 }
-
-
+/* Sections */
+.red-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: #fff;
+}
 
 /* Navigation Bar */
 .navbar {
@@ -56,15 +63,13 @@ p {
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
 /* Title Section */
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
+
 /* Title Image */
 .meet-title {
   position: absolute;
@@ -80,7 +85,6 @@ p {
 
 /* Features Section */
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -99,9 +103,7 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-image {
@@ -126,7 +128,6 @@ p {
   margin: 20px 20px 50px;
 }
 
-
 /* Pricing */
 #pricing {
   padding: 50px;
@@ -142,18 +143,14 @@ p {
 }
 
 /* Call to Action Section */
-#cta {
-  background-color: #ff4c68;
-  font-weight: bold;
-  color: #fff;
-}
 
 .social-icons {
   margin: 20px 10px;
-  color: #black;
+  color: #000;
 }
 
 /* Footer section*/
+
 
 /* Media Sizing */
 @media (max-width: 1028px) {
